@@ -11,6 +11,6 @@ void inc_vars(){
 }
 
 void print_vars(){
-    cout << "global_extern: " << global_extern << "\n";
-    cout << "global_static: " << global_static << "\n";
+    std::cout << "global_extern: " << global_extern << "\n";
+    std::cout << "global_static: " << global_static << "\n";
 }

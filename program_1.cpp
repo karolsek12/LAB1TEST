@@ -6,7 +6,7 @@ int main(){
     inc_vars();
     print_vars();
     
-    cout << global_extern << "\n";
+    std::cout << global_extern << "\n";
 
     return 0;
 }
