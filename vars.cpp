@@ -1,4 +1,7 @@
-extern int global_extern = 0;
+#include <iostream>
+#include <vars.hpp>
+
+int global_extern = 0;
 static int global_static = 0;
 
 void inc_vars(){
